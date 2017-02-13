@@ -44,7 +44,7 @@ class Reader(object):
             self._url = path
 
         if self._index < 0:
-            if self._feed_page is not feedparser.FeedParserDict:
+            if self._feed_page is feedparser.FeedParserDict:
                 for link in self._feed_page.links:
                     if link.rel == 'previous':
                         self._url = link.href
