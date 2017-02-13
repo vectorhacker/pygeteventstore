@@ -57,7 +57,7 @@ class Reader(object):
             raise StopAsyncIteration
 
         entry = self._feed_page.entries[self._index]
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp.ClientSession(loop=self._client.loop) as session:
             headers = {
                 'Accept': 'application/vnd.eventstore.atom+json'
             }

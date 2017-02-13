@@ -16,7 +16,7 @@ class Writer(object):
         if e is not event.Event:
             raise TypeError
         url = self._client.stream_path(self._stream)
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp.ClientSession(loop=self._client.loop) as session:
             headers = {
                 'Content-Type': 'application/json',
                 'ES-EventId': e.id,

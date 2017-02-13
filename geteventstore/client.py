@@ -1,13 +1,15 @@
 #!/bin/env python3
 
 from . import read_stream, write_stream
+import asyncio
 
 class Client(object):
     """Creates an Event Store Client"""
 
-    def __init__(self, host='localhost', port=2113):
+    def __init__(self, host='localhost', port=2113, loop=asyncio.get_event_loop()):
         self._host = host
         self._port = port
+        self.loop = loop
 
     def stream_reader(self, stream):
         return read_stream.Reader(stream, self)
