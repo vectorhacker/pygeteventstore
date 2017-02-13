@@ -19,7 +19,7 @@ Creates a new event store client. The keyword arguments are:
 
 *Example*: Create a new client to the default event store
 
-```python3
+```python
 loop=asyncio.get_event_loop()
 client = geteventstore.Client(loop=loop)
 ```
@@ -34,7 +34,7 @@ Creates a stream reader. The keyword arguments are:
 
 *Example*: Create a new stream readers
 
-```python3
+```python
 import geteventstore
 import asyncio
 
