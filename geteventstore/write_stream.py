@@ -13,8 +13,8 @@ class Writer(object):
         self._http = aiohttp
 
     async def write(self, event_type, event_id=str(uuid.uuid4()), event_data={}, event_metadata={}):
-        url = self._http.stream_path(self._stream)
-        async with self._aiohttp.ClientSession(loop=self._client.loop) as session:
+        url = self._client.stream_path(self._stream)
+        async with self._http.ClientSession(loop=self._client.loop) as session:
             headers = {
                 'Content-Type': 'application/json',
                 'ES-EventId': id,
