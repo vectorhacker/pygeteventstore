@@ -39,17 +39,27 @@ import geteventstore
 import asyncio
 
 async def test(loop):
-    client = geteventstore.Client(loop=loop)
-    reader = client.stream_reader('hello')
+    current = 0
+    poll = 0
+    while True:
+        current = await get_events(loop, current, poll)
+        poll = 10
 
-    async for event in reader:
-        print(event)
-    else:
-        print('done')
+async def get_events(loop, current=0, poll=0):
+    client = geteventstore.Client(loop=loop)
+    reader = client.stream_reader('flyers')
+    reader.next_version = current
+    if poll > 0:
+        reader.long_poll(poll)
+
+    async for event, _, updated in reader:
+        print(event.id)
+        print(updated)
+    return reader.next_version
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(test(loop=loop))
+    loop.run_until_complete(test(loop))
 ```
 
 ### Reader
@@ -69,20 +79,26 @@ Creates a stream reader. The keyword arguments are:
 import geteventstore
 import asyncio
 
-async def test(loop, poll=0, current=0):
-    client = geteventstore.Client(loop=loop)
-    reader = geteventstore.Reader('hello', client)
-    reader.next_version = current
-    reader.long_poll(poll)
+async def test(loop):
+    current = 0
+    poll = 0
+    while True:
+        current = await get_events(loop, current, poll)
+        poll = 10
 
-    async for event, metadata, updated in reader:
-        print(event)
-        print(metadata)
+async def get_events(loop, current=0, poll=0):
+    client = geteventstore.Client(loop=loop)
+    reader = geteventstore.Reader('flyers', client)
+    reader.next_version = current
+    if poll > 0:
+        reader.long_poll(poll)
+
+    async for event, _, updated in reader:
+        print(event.id)
         print(updated)
-    else:
-        await test(loop, poll=10, current=reader.version) # try to read from end of stream
+    return reader.next_version
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(test(loop=loop))
+    loop.run_until_complete(test(loop))
 ```
