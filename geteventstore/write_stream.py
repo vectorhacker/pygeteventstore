@@ -7,9 +7,6 @@ class Writer(object):
     """Creates a Stream Writer"""
 
     def __init__(self, stream, client, aiohttp=aiohttp):
-        if client is not c.Client:
-            raise TypeError
-
         self._stream = stream
         self._client = client
         self._http = aiohttp
