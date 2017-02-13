@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 
 setup(
     name='geteventstore',
-    version='0.0.5',
+    version='0.0.6',
     description='Python Implementation of the EventStore API client',
     long_description=readme,
     author='Victor A Martinez',

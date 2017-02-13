@@ -73,4 +73,4 @@ class Reader(object):
                 self._version = self._next_version
                 self._next_version += 1
                 self._index -= 1
-                return event
+                return e
