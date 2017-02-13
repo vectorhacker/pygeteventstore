@@ -1,7 +1,6 @@
 #!/bin/env python3
 
-from .read_stream import Reader
-from .write_stream import Writer
+from . import read_stream, write_stream
 
 class Client(object):
     """Creates an Event Store Client"""
@@ -11,10 +10,10 @@ class Client(object):
         self._port = port
 
     def stream_reader(self, stream):
-        return Reader(stream, self)
+        return read_stream.Reader(stream, self)
 
     def stream_write(self, stream):
-        return Writer(stream, self)
+        return write_stream.Writer(stream, self)
 
     def feed_path(self, stream, fw_bw, version, page_size):
         # example: 'http://localhost:2113/streams/hello/0/forward/20'

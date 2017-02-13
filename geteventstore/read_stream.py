@@ -1,6 +1,6 @@
 import feedparser
 import aiohttp
-from .event import Event
+from . import event
 
 class Reader(object):
     """Creates a stream reader"""
@@ -64,7 +64,7 @@ class Reader(object):
             async with session.get(entry.id, headers=headers) as response:
                 data = await response.json()
                 content = data['content']
-                event = Event(stream=content['eventStreamId'],
+                e = event.Event(stream=content['eventStreamId'],
                                     number=content['eventNumber'],
                                     event_type=content['eventType'],
                                     id=content['eventId'],
