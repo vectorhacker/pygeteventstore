@@ -17,7 +17,7 @@ class Writer(object):
         async with self._http.ClientSession(loop=self._client.loop) as session:
             headers = {
                 'Content-Type': 'application/json',
-                'ES-EventId': id,
+                'ES-EventId': event_id,
                 'ES-EventType': event_type
             }
             async with session.post(url, data=json.dumps(event_data), headers=headers) as response:
