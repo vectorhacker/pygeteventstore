@@ -14,7 +14,7 @@ class Client(object):
     def stream_reader(self, stream):
         return read_stream.Reader(stream, self)
 
-    def stream_write(self, stream):
+    def stream_writer(self, stream):
         return write_stream.Writer(stream, self)
 
     def feed_path(self, stream, fw_bw, version, page_size):
