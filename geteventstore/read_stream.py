@@ -24,8 +24,6 @@ class Reader(object):
 
     @next_version.setter
     def next_version(self, value):
-        if value is not int:
-            raise TypeError
         self._next_version = value
 
     def __aiter__(self):
