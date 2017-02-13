@@ -11,7 +11,7 @@ class Writer(object):
         self._client = client
         self._http = aiohttp
 
-    async def write(self, event_type, event_id, event_data, event_metadata):
+    async def write(self, event_type, event_id, event_data={}, event_metadata={}):
         url = self._http.stream_path(self._stream)
         async with self._aiohttp.ClientSession(loop=self._client.loop) as session:
             headers = {
