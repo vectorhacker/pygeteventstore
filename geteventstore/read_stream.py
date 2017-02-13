@@ -14,6 +14,20 @@ class Reader(object):
         self._last_event = None
         self._feed_page = None
 
+    @property
+    def version(self):
+        return self._version
+
+    @property
+    def next_version(self):
+        return self._next_version
+
+    @next_version.setter
+    def next_version(self, value):
+        if value is not int:
+            raise TypeError
+        self._next_version = value
+
     def __aiter__(self):
         return self
 
