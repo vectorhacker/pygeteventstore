@@ -1,4 +1,5 @@
-from . import event, client.Client
+from . import event
+from .client import Client
 import aiohttp
 import json
 
