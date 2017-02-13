@@ -1,10 +1,9 @@
 class Event(object):
-    def __init__(self, stream, id, event_type, number, data = {}, metadata = {}):
+    def __init__(self, stream, id, event_type, number, data = {}):
         self._id = id
         self._stream = stream
         self._type = event_type
         self._data = data
-        self._metadata = metadata
         self._number = number
 
     @property
@@ -18,11 +17,6 @@ class Event(object):
     @property
     def data(self):
         return self._data
-
-    @property
-    def metadata(self):
-        return self._metadata
-
     @property
     def stream(self):
         return self._stream

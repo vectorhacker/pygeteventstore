@@ -12,12 +12,12 @@ with open('LICENSE') as f:
 
 setup(
     name='geteventstore',
-    version='0.1.2',
-    description='Python Implementation of the EventStore API client',
+    version='0.1.3',
+    description='Python HTTP Client for the Event Store API',
     long_description=readme,
     author='Victor A Martinez',
     author_email='victor@plazsa.com',
-    url='https://github.com/vectorhacker/pygeteventstore',
+    url='https://gitlab.plazsa.com/vectorhacker/pygeteventstore',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )

@@ -5,16 +5,18 @@ import json
 
 class Writer(object):
     """Creates a Stream Writer"""
-    def __init__(self, stream, client):
+
+    def __init__(self, stream, client, aiohttp=aiohttp):
         if client is not client.Client:
             raise TypeError
 
         self._stream = stream
         self._client = client
+        self._http = aiohttp
 
     async def write(self, event_type, event_id, event_data, event_metadata):
-        url = self._client.stream_path(self._stream)
-        async with aiohttp.ClientSession(loop=self._client.loop) as session:
+        url = self._http.stream_path(self._stream)
+        async with self._aiohttp.ClientSession(loop=self._client.loop) as session:
             headers = {
                 'Content-Type': 'application/json',
                 'ES-EventId': id,
