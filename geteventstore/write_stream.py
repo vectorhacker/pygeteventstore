@@ -23,3 +23,4 @@ class Writer(object):
             async with session.post(url, data=json.dumps(event_data), headers=headers) as response:
                 if response.status != 201:
                     raise Exception
+                return
