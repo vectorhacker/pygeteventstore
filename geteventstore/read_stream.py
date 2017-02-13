@@ -66,13 +66,12 @@ class Reader(object):
                 data = await response.json()
                 content = data['content']
                 updated = data['updated']
-                metadata = data['metadata']
+                metadata = content['metadata']
                 e = event.Event(stream=content['eventStreamId'],
                                 number=content['eventNumber'],
                                 event_type=content['eventType'],
                                 id=content['eventId'],
-                                data=content['data'],
-                                metadata=content['metadata'])
+                                data=content['data'])
                 self._version = self._next_version
                 self._next_version += 1
                 self._index -= 1
