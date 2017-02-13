@@ -20,6 +20,6 @@ class Writer(object):
                 'ES-EventId': id,
                 'ES-EventType': event_type
             }
-            async with session.post(url, data=json.dumps(data), headers=headers) as response:
+            async with session.post(url, data=json.dumps(event_data), headers=headers) as response:
                 if response.status != 201:
                     raise Exception
