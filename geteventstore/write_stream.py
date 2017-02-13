@@ -1,4 +1,4 @@
-from . import event, client
+from . import event, client.Client
 import aiohttp
 import json
 
@@ -7,7 +7,7 @@ class Writer(object):
     """Creates a Stream Writer"""
 
     def __init__(self, stream, client, aiohttp=aiohttp):
-        if client is not client.Client:
+        if client is not Client:
             raise TypeError
 
         self._stream = stream

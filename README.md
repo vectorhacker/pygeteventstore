@@ -39,11 +39,13 @@ import geteventstore
 import asyncio
 
 async def test(loop):
-    current = 0
-    poll = 0
-    while True:
-        current = await get_events(loop, current, poll)
+    try:
+        current = 0
         poll = 10
+        while True:
+            current = await get_events(loop, current, poll)
+    except KeyboardInterrupt:
+        return
 
 async def get_events(loop, current=0, poll=0):
     client = geteventstore.Client(loop=loop)
@@ -80,11 +82,13 @@ import geteventstore
 import asyncio
 
 async def test(loop):
-    current = 0
-    poll = 0
-    while True:
-        current = await get_events(loop, current, poll)
+    try:
+        current = 0
         poll = 10
+        while True:
+            current = await get_events(loop, current, poll)
+    except KeyboardInterrupt:
+        return
 
 async def get_events(loop, current=0, poll=0):
     client = geteventstore.Client(loop=loop)
