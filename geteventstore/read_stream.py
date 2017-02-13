@@ -30,7 +30,7 @@ class Reader(object):
         self._next_version = value
 
     def long_poll(self, seconds):
-        self._headers['ES-LongPoll'] = seconds
+        self._headers['ES-LongPoll'] = str(seconds)
 
     def __aiter__(self):
         return self
