@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 license = ''
 
-with open('README.rst') as f:
+with open('README.md') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 
 setup(
     name='geteventstore',
-    version='0.0.6',
+    version='0.1.0',
     description='Python Implementation of the EventStore API client',
     long_description=readme,
     author='Victor A Martinez',
