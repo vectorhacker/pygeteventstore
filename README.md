@@ -54,8 +54,9 @@ async def get_events(loop, current=0, poll=0):
     if poll > 0:
         reader.long_poll(poll)
 
-    async for event, _, updated in reader:
-        print(event.id)
+    async for event, meatadata, updated in reader:
+        print(event)
+        print(metadata)
         print(updated)
     return reader.next_version
 

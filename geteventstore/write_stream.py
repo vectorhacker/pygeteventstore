@@ -12,7 +12,11 @@ class Writer(object):
         self._client = client
         self._http = aiohttp
 
-    async def write(self, event_type, event_id=str(uuid.uuid4()), event_data={}, event_metadata={}):
+    async def write(self,
+                    event_type,
+                    event_id=str(uuid.uuid4()),
+                    event_data={},
+                    event_metadata={}):
         url = self._client.stream_path(self._stream)
         async with self._http.ClientSession(loop=self._client.loop) as session:
             headers = {
@@ -23,4 +27,3 @@ class Writer(object):
             async with session.post(url, data=json.dumps(event_data), headers=headers) as response:
                 if response.status != 201:
                     raise Exception
-                return
