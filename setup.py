@@ -2,8 +2,6 @@
 
 from setuptools import setup, find_packages
 
-license = ''
-
 with open('README.md') as f:
     readme = f.read()
 

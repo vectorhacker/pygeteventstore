@@ -107,3 +107,11 @@ if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     loop.run_until_complete(test(loop))
 ```
+
+TODO:
+
+- [-] Read from stream
+    - [x] Catchup subscription
+    - [x] Volatile Subscriptions
+    - [ ] Persistent Subscription
+- [x] Write to stream
