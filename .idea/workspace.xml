@@ -1,133 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84d2fd11-5447-403c-b0c5-f9fbad9af6f5" name="Default" comment="updated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/activate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/activate.csh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/activate.fish" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/chardetect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/easy_install" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/pip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/pip3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/pip3.6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/python" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/python3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/bin/python3.6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp-1.3.1.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp-1.3.1.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp-1.3.1.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp-1.3.1.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp-1.3.1.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp-1.3.1.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/_websocket.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/_websocket.cpython-36m-darwin.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/_websocket.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/_ws_impl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/abc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/backport_cookies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/client_reqrep.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/client_ws.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/connector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/cookiejar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/errors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/file_sender.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/hdrs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/helpers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/log.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/multipart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/parsers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/protocol.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/pytest_plugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/resolver.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/signals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/streams.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/test_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web_exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web_middlewares.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web_reqrep.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web_server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web_urldispatcher.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/web_ws.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/worker.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/aiohttp/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout-1.1.0.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout-1.1.0.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout-1.1.0.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout-1.1.0.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout-1.1.0.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout-1.1.0.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/async_timeout/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet-2.3.0.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/big5freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/big5prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/chardetect.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/chardistribution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/charsetgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/charsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/codingstatemachine.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/cp949prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/escprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/escsm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/eucjpprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/euckrfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/euckrprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/euctwfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/euctwprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/gb2312freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/gb2312prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/hebrewprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/jisfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/jpcntx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/langbulgarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/langcyrillicmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/langgreekmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/langhebrewmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/langhungarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/langthaimodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/latin1prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/mbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/mbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/mbcssm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/sbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/sbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/sjisprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/universaldetector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/chardet/utf8prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/easy-install.pth" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser-5.2.1.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser-5.2.1.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser-5.2.1.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser-5.2.1.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser-5.2.1.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser-5.2.1.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/feedparser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict-2.1.4.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict-2.1.4.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict-2.1.4.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict-2.1.4.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict-2.1.4.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict-2.1.4.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict/__init__.pyi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict/_multidict.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict/_multidict.cpython-36m-darwin.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict/_multidict.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/multidict/_multidict_py.py" afterPath="" />
+    <list default="true" id="84d2fd11-5447-403c-b0c5-f9fbad9af6f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/EGG-INFO/PKG-INFO" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/EGG-INFO/SOURCES.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/EGG-INFO/dependency_links.txt" afterPath="" />
@@ -143,6 +18,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/_markerlib/markers.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/cachecontrol/__init__.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/cachecontrol/adapter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/cachecontrol/cache.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="" />
@@ -233,6 +109,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/pkg_resources/__init__.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/progress/__init__.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/progress/bar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/progress/counter.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/progress/helpers.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/progress/spinner.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/re-vendor.py" afterPath="" />
@@ -311,6 +188,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/sessions.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/status_codes.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/_vendor/requests/structures.py" afterPath="" />
@@ -361,24 +239,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/vcs/mercurial.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/vcs/subversion.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-7.1.0-py3.6.egg/pip/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools-18.1-py3.6.egg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/setuptools.pth" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl-0.9.2.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl-0.9.2.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl-0.9.2.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl-0.9.2.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl-0.9.2.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl-0.9.2.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl/__init__.pyi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl/_quoting.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl/_quoting.cpython-36m-darwin.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl/_quoting.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/yarl/quoting.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip" afterPath="$PROJECT_DIR$/venv/bin/pip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip3" afterPath="$PROJECT_DIR$/venv/bin/pip3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip3.6" afterPath="$PROJECT_DIR$/venv/bin/pip3.6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/easy-install.pth" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/easy-install.pth" />
     </list>
     <list id="35e15b69-b619-471f-a8b7-874ced87e9f6" name="Rejected commit: Default" comment="first commit" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -409,8 +275,28 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -823,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487133254494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated version">
+      <created>1487133339690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487133339690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -845,18 +738,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33144477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -869,7 +762,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="updated version" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1213,14 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -1273,6 +1159,30 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

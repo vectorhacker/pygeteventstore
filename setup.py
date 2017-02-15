@@ -2,15 +2,15 @@
 
 from setuptools import setup, find_packages
 
-with open('README.md') as f:
+with open('./README.md') as f:
     readme = f.read()
 
-with open('LICENSE') as f:
+with open('./LICENSE') as f:
     license = f.read()
 
 setup(
     name='geteventstore',
-    version='0.0.2',
+    version='0.0.3',
     description='Python HTTP Client for the Event Store API',
     long_description=readme,
     author='Victor A. Martinez Santiago',
